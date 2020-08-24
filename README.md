@@ -83,24 +83,24 @@ $ git clone https://github.com/COAB1/desafio-costomerx
 $ cd desafio-costomerx
 ```
 
-3. Agora vamos rodar a aplicação com o rails server:
-
-`rails server`
-
-Um novo terminal irá abrir, então, execute:
+3. Agora vamos instalar as dependências 
 
 ```
-$ rails s -b 0.0.0.0
+$ bin/setup
+```
+4. E então é só abrir seu navegador favorito e rodar a aplicação:
+
+```
+$ rails server
 ```
 
 > Depois, acesse http://localhost:3000 para ver a aplicação
-
 
 ### Rodando os testes :memo:
 
 ```
 $ cd desafio-costomerx
-$ rspec **ou** bundle exec rspec
+$ rspec 
 ```
 
 ## Database :minidisc:
