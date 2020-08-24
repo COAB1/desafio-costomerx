@@ -100,7 +100,7 @@ $ rails s -b 0.0.0.0
 
 ```
 $ cd desafio-costomerx
-$ rspec *or* bundle exec rspec
+$ rspec **ou** bundle exec rspec
 ```
 
 ## Database :minidisc:
