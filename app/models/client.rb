@@ -1,7 +1,3 @@
 class Client < ApplicationRecord
-  has_many :phones, dependent: :destroy
-end
-
-class Phone < ApplicationRecord
-  belongs_to :client
+  has_many :phones, dependent: :destroy, inverse_of: :client
 end

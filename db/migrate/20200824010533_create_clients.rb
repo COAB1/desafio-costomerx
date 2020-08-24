@@ -7,9 +7,5 @@ class CreateClients < ActiveRecord::Migration[6.0]
 
       t.timestamps
     end
-
-    create_table :phones do |t|
-      t.belongs_to :client
-      t.timestamps
-    end
+  end
 end
