@@ -94,7 +94,7 @@ $ bin/setup
 $ rails server
 ```
 
-> Depois, acesse http://localhost:3000 para ver a aplicação
+> Acesse http://localhost:3000 para ver a aplicação
 
 ### Rodando os testes :memo:
 
