@@ -37,19 +37,19 @@ Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas (
 
 ## Lista de Conteúdos
 
-:small_orange_diamond: [Deploy](#deploy)
+:ballot_box_with_check: [Deploy](#deploy)
 
-:small_orange_diamond: [Pré-requisitos](#pré-requisitos-package)
+:ballot_box_with_check: [Pré-requisitos](#pré-requisitos-package)
 
-:small_orange_diamond: [Configurações](#configurações-arrow_forward)
+:ballot_box_with_check: [Configurações](#configurações-arrow_forward)
 
-:small_orange_diamond: [Rodando a aplicação](#rodando-a-aplicação)
+:ballot_box_with_check: [Rodando a aplicação](#rodando-a-aplicação)
 
-:small_orange_diamond: [Rodando os testes](#rodando-os-testes-memo)
+:ballot_box_with_check: [Rodando os testes](#rodando-os-testes-memo)
 
-:small_orange_diamond: [Database](#database-floppy_disk)
+:ballot_box_with_check: [Database](#database-floppy_disk)
 
-:small_orange_diamond: [Rotas](#rotas)
+:ballot_box_with_check: [Rotas](#rotas)
 
 ## Deploy 
 
@@ -57,17 +57,17 @@ Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas (
 
 Algumas instalações serão necessárias antes de iniciar o projeto. 
 
-:warning: [Ruby](https://www.ruby-lang.org/pt/documentation/installation/) versão >=2.6.3
+:bangbang: [Ruby](https://www.ruby-lang.org/pt/documentation/installation/) versão >=2.6.3
 
-:warning: [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html) versão >=6.0.2.2
+:bangbang: [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html) versão >=6.0.2.2
 
-:warning: [Node](https://nodejs.org/en/download/) versão >=12.16.2
+:bangbang: [Node](https://nodejs.org/en/download/) versão >=12.16.2
 
-:warning: [Gem](https://rubygems.org/pages/download?locale=pt-BR) versão >=3.1.2
+:bangbang: [Gem](https://rubygems.org/pages/download?locale=pt-BR) versão >=3.1.2
 
-:warning: [Bundle](https://bundler.io/man/bundle-install.1.html) versão >=2.1.2
+:bangbang: [Bundle](https://bundler.io/man/bundle-install.1.html) versão >=2.1.2
 
-:warning: [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/#windows-stable) versão >=1.22.4
+:bangbang: [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/#windows-stable) versão >=1.22.4
 
 ## Configurações :arrow_forward:
 
@@ -109,7 +109,7 @@ As tabelas do banco de dados podem ser vistas no arquivo [schema](https://github
 
 Os dados default foram criados em [seeds](https://github.com/COAB1/desafio-costomerx/blob/master/db/seeds.rb)
 
-## Rotas
+## Rotas :shipit:
 
 Para ver as rotas disponíveis na aplicação, execute: 
 
