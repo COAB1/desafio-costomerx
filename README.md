@@ -69,7 +69,7 @@ Algumas instalações serão necessárias antes de iniciar o projeto.
 
 :bangbang: [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/#windows-stable) versão >=1.22.4
 
-## Configurações :arrow_forward:
+## Configurações :computer:
 
 1. Clone o projeto
 
@@ -103,7 +103,7 @@ $ cd desafio-costomerx
 $ rspec *or* bundle exec rspec
 ```
 
-## Database :floppy_disk:
+## Database :minidisc:
 
 As tabelas do banco de dados podem ser vistas no arquivo [schema](https://github.com/COAB1/desafio-costomerx/blob/master/db/schema.rb)
 
