@@ -1,5 +1,16 @@
-require 'rails_helper'
+=begin require 'rails_helper'
 
-RSpec.describe Client, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Client, type: :model do
+  context 'valistaion do'
+    it 'attributes cannot be blank' do
+      client = Client.new
+
+      client.valid?
+
+      expect(client.errors[:name]).to include('can\'t be blank')
+      expect(client.errors[:email]).to include('can\'t be blank')
+      expect(client.errors[:phone])
+        .to include('can\'t be blank')
+    end
 end
+ =end
