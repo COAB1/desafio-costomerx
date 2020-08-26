@@ -1,0 +1,11 @@
+<%= link_to 'Go back', root_path%>
+
+<ol><% @clients.each do |client| %>
+  <li><%= link_to client.name, client %></li>
+<% end %></ol>
+
+<% if @clients.empty? %>
+		<%= 'Ooops...You don\'t have any Client registered yet! But you can do it here:' %>
+<% end %>
+
+<p><%= link_to 'Register a new client', new_client_path %></p>

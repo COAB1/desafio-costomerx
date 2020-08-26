@@ -1,4 +1,4 @@
-=begin require 'rails_helper'
+require 'rails_helper'
 
 describe Client, type: :model do
   context 'valistaion do'
@@ -13,4 +13,3 @@ describe Client, type: :model do
         .to include('can\'t be blank')
     end
 end
- =end

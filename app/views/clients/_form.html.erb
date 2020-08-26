@@ -1,0 +1,23 @@
+<% @client.errors.full_messages.each do |message| %>
+  <p><%= message %></p>
+<% end %>
+
+<%= form_with model: @client, local: true do |f| %>
+  <div>
+    <%= f.label :name, 'Name' %>
+    <%= f.text_field :name, placeholder: 'Albert Einstein'  %>
+  </div>
+  <div>
+    <%= f.label :email, 'E-mail' %>
+    <%= f.text_field :email, placeholder: 'email@gmail.com'  %>
+  </div>
+  <div>
+    <%= f.label :phone, 'Phone number' %>
+    <%= f.text_field :phone, placeholder: 'xxx-xxx-xxxx'  %>
+  </div>
+  <div>
+    <%= f.label :register_date, 'Register date' %>
+    <%= f.text_field :register_date, placeholder: '2020/08/25'  %>
+  </div>
+    <%= f.submit "Save" %>
+<% end %>
