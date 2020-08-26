@@ -114,5 +114,5 @@ Os dados default foram criados em [seeds](https://github.com/COAB1/desafio-costo
 Para ver as rotas disponíveis na aplicação, execute: 
 
 ```
-$ rails routes -g <name of controller>
+$ rails routes
 ```
